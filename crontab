@@ -1,0 +1,2 @@
+0 00 * * * date>>~/checkdisk.log; du -h --max-depth=1 /home 1>>~/checkdisk.log; echo "\n">>~/checkdisk.log
+
